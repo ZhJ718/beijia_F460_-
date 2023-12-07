@@ -1,0 +1,168 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: z z, z, LIC=ATTQ1-C9QUP-9U54U-S734D-TX5R5-0SUTW
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.38.0.0
+Toolchain Path:  D:\SoftWare\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.38.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      Segger\JL2CM3.dll V2.99.42.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+E:\work_huaru\合成营\Myself\beijia\Beijia_F460_合成营（20231115）\workbench\HC32F460\Boot\Beijia_F460_Boot.uvprojx
+Project File Date:  12/06/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\SoftWare\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Boot'
+compiling update_com.c...
+..\..\update_com.c(198): warning:  #177-D: variable "DataLen"  was declared but never referenced
+      uint16_t i, DataLen;
+..\..\update_com.c: 1 warning, 0 errors
+compiling main.c...
+Code\zigcom_task.h(10): warning:  #14-D: extra text after expected end of preprocessing directive
+  #else  (BOARDID == 2)
+Code\main.c(299): warning:  #177-D: label "BOOT"  was declared but never referenced
+  BOOT:
+Code\main.c: 2 warnings, 0 errors
+compiling upcom_task.c...
+assembling startup_hc32f46x.s...
+compiling comtask.c...
+..\..\comtask.c(494): warning:  #177-D: variable "pBuf"  was declared but never referenced
+      uint8_t *pBuf = NULL;
+..\..\comtask.c: 1 warning, 0 errors
+compiling zigcom_task.c...
+Code\zigcom_task.h(10): warning:  #14-D: extra text after expected end of preprocessing directive
+  #else  (BOARDID == 2)
+Code\zigcom_task.c: 1 warning, 0 errors
+compiling main_task.c...
+compiling upgrade.c...
+..\..\upgrade.c(86): warning:  #550-D: variable "temp"  was set but never used
+      uint8_t temp[20];
+..\..\upgrade.c(237): warning:  #550-D: variable "temp"  was set but never used
+      uint8_t temp[100];
+..\..\upgrade.c(840): warning:  #550-D: variable "AddrEnd"  was set but never used
+      uint32_t i, AddrEnd;
+..\..\upgrade.c: 3 warnings, 0 errors
+compiling system_hc32f46x.c...
+compiling hc32f46x_emb.c...
+compiling hc32f46x_dmac.c...
+..\..\..\board\HC32F460\src\hc32f46x_dmac.c(777): warning:  #111-D: statement is unreachable
+      return Error;
+..\..\..\board\HC32F460\src\hc32f46x_dmac.c: 1 warning, 0 errors
+compiling hc32f46x_efm.c...
+compiling hc32f46x_adc.c...
+compiling hc32f46x_clk.c...
+compiling param.c...
+compiling hc32f46x_event_port.c...
+compiling hc32f46x_timer0.c...
+compiling hc32f46x_timera.c...
+compiling hc32f46x_rtc.c...
+compiling hc32f46x_spi.c...
+compiling hc32f46x_gpio.c...
+compiling hc32f46x_pwc.c...
+compiling hc32f46x_wdt.c...
+compiling timer.c...
+..\..\..\drivers\timer.c(713): warning:  #177-D: variable "stcXtalCfg"  was declared but never referenced
+      stc_clk_xtal_cfg_t   stcXtalCfg;
+..\..\..\drivers\timer.c(941): warning:  #174-D: expression has no effect
+      SOFT_Timer_Disable;
+..\..\..\drivers\timer.c(947): warning:  #174-D: expression has no effect
+      SOFT_Timer_Enable;
+..\..\..\drivers\timer.c(962): warning:  #174-D: expression has no effect
+      SOFT_Timer_Disable;
+..\..\..\drivers\timer.c(970): warning:  #174-D: expression has no effect
+      SOFT_Timer_Enable;
+..\..\..\drivers\timer.c(985): warning:  #174-D: expression has no effect
+      SOFT_Timer_Disable;
+..\..\..\drivers\timer.c(999): warning:  #174-D: expression has no effect
+      SOFT_Timer_Enable;
+..\..\..\drivers\timer.c: 7 warnings, 0 errors
+compiling hc32f46x_usart.c...
+compiling hc32f46x_timer4_cnt.c...
+compiling uart.c...
+..\..\..\drivers\uart.c(826): warning:  #550-D: variable "ret"  was set but never used
+      uint32_t ret = TRUE;
+..\..\..\drivers\uart.c(979): warning:  #111-D: statement is unreachable
+              break;
+..\..\..\drivers\uart.c(1068): warning:  #177-D: variable "dat"  was declared but never referenced
+      uint8_t dat;
+..\..\..\drivers\uart.c(1333): warning:  #177-D: variable "DmaCh"  was declared but never referenced
+      u8 DmaCh =   pConfig->m_sRxDMAConfig.m_eDMAChx;
+..\..\..\drivers\uart.c(1613): warning:  #223-D: function "GetSysRunMilliSecond" declared implicitly
+      if(pUartMag->m_bIsComSend == TRUE && (GetSysRunMilliSecond()-pUartMag->m_dwSendTime>100))
+..\..\..\drivers\uart.c(1646): warning:  #223-D: function "GetSysRunMilliSecond" declared implicitly
+      pUartMag->m_dwSendTime = GetSysRunMilliSecond();
+..\..\..\drivers\uart.c(1601): warning:  #177-D: variable "SentCount"  was declared but never referenced
+      uint16_t SentCount;
+..\..\..\drivers\uart.c(925): warning:  #177-D: function "Uart_NvicConfig"  was declared but never referenced
+  static void Uart_NvicConfig(en_int_src_t enIntSrc, IRQn_Type enIRQn, int8_t IrqPrity)
+..\..\..\drivers\uart.c: 8 warnings, 0 errors
+compiling hc32f46x_icg.c...
+compiling hc32f46x_utility.c...
+compiling malloc.c...
+compiling spi.c...
+..\..\..\drivers\spi.c(117): warning:  #188-D: enumerated type mixed with another type
+      SPI_SetClockDiv(M4_SPI2, SPI_BaudRatePrescaler);
+..\..\..\drivers\spi.c: 1 warning, 0 errors
+compiling queue.c...
+compiling gpio.c...
+compiling led.c...
+..\..\..\device\led.c(132): warning:  #177-D: function "Led_CtrlLedOnOff"  was declared but never referenced
+  static void Led_CtrlLedOnOff(LED_COLOR Color, LED_HW_OPERATIONS LedhwOps)
+..\..\..\device\led.c: 1 warning, 0 errors
+compiling iwdt.c...
+compiling iflash.c...
+compiling beep.c...
+compiling protocal.c...
+..\..\..\include\protocal.c(734): warning:  #177-D: variable "i"  was declared but never referenced
+      uint8_t i,off,minL;
+..\..\..\include\protocal.c: 1 warning, 0 errors
+compiling extflash.c...
+compiling w25qxx.c...
+compiling linkqueue.c...
+..\..\..\include\linkqueue.c(106): warning:  #177-D: variable "ret"  was declared but never referenced
+      void *ret = NULL;
+..\..\..\include\linkqueue.c: 1 warning, 0 errors
+compiling motor.c...
+compiling new_zigbee.c...
+.\Code\zigcom_task.h(10): warning:  #14-D: extra text after expected end of preprocessing directive
+  #else  (BOARDID == 2)
+..\..\..\device\new_zigbee.c: 1 warning, 0 errors
+compiling linklist.c...
+..\..\..\include\linklist.c(97): warning:  #550-D: variable "ret"  was set but never used
+      int ret = 0, i = 0;
+..\..\..\include\linklist.c: 1 warning, 0 errors
+linking...
+Program Size: Code=26488 RO-data=1208 RW-data=32 ZI-data=124136  
+FromELF: creating hex file...
+After Build - User command #1: fromelf --bin ".\Objects\Boot_DB_BJ_F460_V6_4_0_20230830_1.axf" --output "..\..\..\output\Boot_DB_BJ_F460_V6_4_0_20230830_1.bin"
+".\Objects\Boot_DB_BJ_F460_V6_4_0_20230830_1.axf" - 0 Error(s), 30 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: HDSC
+                https://raw.githubusercontent.com/hdscmcu/pack/master/HDSC.HC32F460.1.0.11.pack
+                HDSC.HC32F460.1.0.11
+                HC32F460 ARM Cortex-M4 Device Family Pack
+
+<h2>Collection of Component include folders:</h2>
+  D:/SoftWare/Keil_v5/packs/HDSC/HC32F460/1.0.11/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:01:18
+</pre>
+</body>
+</html>

@@ -1,0 +1,6 @@
+---- SlaverMag_GetHandleByTType Matches (5 in 2 files) ----
+Main_task.c (d:\newwork\1 日常开发\6 5308修改\代码\beijia_f460_5308\workbench):SINGLE_SLAVER_MAG* SlaverMag_GetHandleByTType(uint8_t TType)
+Main_task.c (d:\newwork\1 日常开发\6 5308修改\代码\beijia_f460_5308\workbench):    // pSlaverMag = SlaverMag_GetHandleByTType(TType);
+Main_task.c (d:\newwork\1 日常开发\6 5308修改\代码\beijia_f460_5308\workbench):    pSlaverMag = SlaverMag_GetHandleByTType(TType);
+Main_task.c (d:\newwork\1 日常开发\6 5308修改\代码\beijia_f460_5308\workbench):    pSlaverMag = SlaverMag_GetHandleByTType(TType);
+Main_task.h (d:\newwork\1 日常开发\6 5308修改\代码\beijia_f460_5308\workbench):SINGLE_SLAVER_MAG* SlaverMag_GetHandleByTType(uint8_t TType);

@@ -1,0 +1,461 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: z z, z, LIC=ATTQ1-C9QUP-9U54U-S734D-TX5R5-0SUTW
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.38.0.0
+Toolchain Path:  D:\SoftWare\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.38.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      Segger\JL2CM3.dll V2.99.42.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+E:\work_huaru\合成营\Myself\beijia\Beijia_F460_合成营（20231115）\workbench\HC32F460\Master\BeiJia_F460_App_V0602.uvprojx
+Project File Date:  12/06/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\SoftWare\Keil_v5\ARM\ARMCC\Bin'
+Build target 'App'
+compiling param.c...
+..\..\main_task.h(1307): warning:  #1295-D: Deprecated declaration CtrlHelmetLaserOn - give arg types
+  void CtrlHelmetLaserOn();
+..\..\param.c: 1 warning, 0 errors
+compiling comtask.c...
+..\..\..\workbench\main_task.h(1307): warning:  #1295-D: Deprecated declaration CtrlHelmetLaserOn - give arg types
+  void CtrlHelmetLaserOn();
+..\..\comtask.c(494): warning:  #177-D: variable "pBuf"  was declared but never referenced
+      uint8_t *pBuf = NULL;
+..\..\comtask.c: 2 warnings, 0 errors
+compiling main_task.c...
+..\..\main_task.h(1307): warning:  #1295-D: Deprecated declaration CtrlHelmetLaserOn - give arg types
+  void CtrlHelmetLaserOn();
+.\Code\lasercom_task.h(226): warning:  #1295-D: Deprecated declaration Detector_Led_AllOn - give arg types
+  void Detector_Led_AllOn();
+.\Code\lasercom_task.h(227): warning:  #1295-D: Deprecated declaration Detector_Led_AllOff - give arg types
+  void Detector_Led_AllOff() ;
+..\..\main_task.c(1973): warning:  #177-D: variable "i"  was declared but never referenced
+      uint32_t i;
+..\..\main_task.c(1974): warning:  #177-D: variable "pSlaverMag"  was declared but never referenced
+      SINGLE_SLAVER_PARAM *pSlaverMag;
+..\..\main_task.c(2116): warning:  #940-D: missing return statement at end of non-void function "UserParam_SetDayOrNight" 
+  }
+..\..\main_task.c(3080): warning:  #177-D: variable "Len"  was declared but never referenced
+      uint16_t i, Len, SlaverCnt;
+..\..\main_task.c(3144): warning:  #177-D: variable "DatBuf"  was declared but never referenced
+      uint8_t DatBuf[50];
+..\..\main_task.c(3145): warning:  #177-D: variable "DatBufLen"  was declared but never referenced
+      uint8_t DatBufLen;
+..\..\main_task.c(3146): warning:  #177-D: variable "ChanParam"  was declared but never referenced
+      S_CONN_CHAN_PARAM ChanParam;
+..\..\main_task.c(3221): warning:  #177-D: variable "Offset"  was declared but never referenced
+      uint8_t DatBufLen, Offset;
+..\..\main_task.c(3256): warning:  #177-D: variable "i"  was declared but never referenced
+      uint8_t Offset, TType, TSubtype, RID, i;
+..\..\main_task.c(3325): warning:  #177-D: variable "Offset"  was declared but never referenced
+      uint8_t DatBufLen, Offset;
+..\..\main_task.c(3373): warning:  #550-D: variable "TType"  was set but never used
+  		uint8_t TType, TSubtype, RID;
+..\..\main_task.c(3373): warning:  #550-D: variable "TSubtype"  was set but never used
+  		uint8_t TType, TSubtype, RID;
+..\..\main_task.c(3373): warning:  #550-D: variable "RID"  was set but never used
+  		uint8_t TType, TSubtype, RID;
+..\..\main_task.c(3374): warning:  #550-D: variable "PID"  was set but never used
+  		uint16_t PID;
+..\..\main_task.c(3499): warning:  #188-D: enumerated type mixed with another type
+          Info.m_HPart     = 0;
+..\..\main_task.c(3524): warning:  #188-D: enumerated type mixed with another type
+          Info.m_HPart     = 0;
+..\..\main_task.c(3454): warning:  #177-D: variable "Character1"  was declared but never referenced
+  		STRUCT_TS_Character1 Character1 = {0};
+..\..\main_task.c(3459): warning:  #550-D: variable "TType"  was set but never used
+  		uint8_t TType, TSubtype, RID;
+..\..\main_task.c(3459): warning:  #550-D: variable "TSubtype"  was set but never used
+  		uint8_t TType, TSubtype, RID;
+..\..\main_task.c(3459): warning:  #550-D: variable "RID"  was set but never used
+  		uint8_t TType, TSubtype, RID;
+..\..\main_task.c(3460): warning:  #550-D: variable "PID"  was set but never used
+  		uint16_t PID;
+..\..\main_task.c(3572): warning:  #550-D: variable "Character1"  was set but never used
+  		STRUCT_TS_Character1 Character1 = {0};
+..\..\main_task.c(3574): warning:  #550-D: variable "TType"  was set but never used
+  		uint8_t TType, TSubtype, RID;
+..\..\main_task.c(3574): warning:  #550-D: variable "TSubtype"  was set but never used
+  		uint8_t TType, TSubtype, RID;
+..\..\main_task.c(3574): warning:  #550-D: variable "RID"  was set but never used
+  		uint8_t TType, TSubtype, RID;
+..\..\main_task.c(3575): warning:  #550-D: variable "PID"  was set but never used
+  		uint16_t PID;
+..\..\main_task.c(3654): warning:  #550-D: variable "TType"  was set but never used
+  		uint8_t TType, TSubtype, RID;
+..\..\main_task.c(3654): warning:  #550-D: variable "TSubtype"  was set but never used
+  		uint8_t TType, TSubtype, RID;
+..\..\main_task.c(3654): warning:  #550-D: variable "RID"  was set but never used
+  		uint8_t TType, TSubtype, RID;
+..\..\main_task.c(3655): warning:  #550-D: variable "PID"  was set but never used
+  		uint16_t PID;
+..\..\main_task.c(3718): warning:  #177-D: variable "len"  was declared but never referenced
+      uint8_t i, len;
+..\..\main_task.c(3837): warning:  #177-D: variable "pSlaverMag"  was declared but never referenced
+  		SINGLE_SLAVER_MAG *pSlaverMag;
+..\..\main_task.c(3839): warning:  #550-D: variable "TType"  was set but never used
+  		uint8_t TType, TSubtype, RID;
+..\..\main_task.c(3839): warning:  #550-D: variable "TSubtype"  was set but never used
+  		uint8_t TType, TSubtype, RID;
+..\..\main_task.c(3839): warning:  #550-D: variable "RID"  was set but never used
+  		uint8_t TType, TSubtype, RID;
+..\..\main_task.c(3840): warning:  #550-D: variable "PID"  was set but never used
+      uint16_t PID;
+..\..\main_task.c(3935): warning:  #177-D: variable "DatBuf"  was declared but never referenced
+  		uint8_t DatBuf[50];
+..\..\main_task.c(3936): warning:  #177-D: variable "DatBufLen"  was declared but never referenced
+      uint8_t DatBufLen, Offset, i;
+..\..\main_task.c(3938): warning:  #177-D: variable "ChanParam"  was declared but never referenced
+  		S_CONN_CHAN_PARAM ChanParam;
+..\..\main_task.c(3984): warning:  #550-D: variable "RID"  was set but never used
+      uint8_t Offset, TType, TSubtype, RID, Idx, i;
+..\..\main_task.c(3985): warning:  #550-D: variable "PID"  was set but never used
+      uint16_t PID;
+..\..\main_task.c(4090): warning:  #177-D: variable "pBuf"  was declared but never referenced
+    uint8_t pBuf[50] = {
+..\..\main_task.c(4204): warning:  #550-D: variable "TType"  was set but never used
+      uint8_t Offset, TType, TSubtype, RID, IsUDP, TxPwr, NeedSave;
+..\..\main_task.c(4204): warning:  #550-D: variable "TSubtype"  was set but never used
+      uint8_t Offset, TType, TSubtype, RID, IsUDP, TxPwr, NeedSave;
+..\..\main_task.c(4204): warning:  #550-D: variable "RID"  was set but never used
+      uint8_t Offset, TType, TSubtype, RID, IsUDP, TxPwr, NeedSave;
+..\..\main_task.c(4205): warning:  #550-D: variable "PID"  was set but never used
+      uint16_t PID, SerPort;
+..\..\main_task.c(4325): warning:  #550-D: variable "TType"  was set but never used
+      uint8_t Offset, TType, TSubtype, RID;
+..\..\main_task.c(4325): warning:  #550-D: variable "TSubtype"  was set but never used
+      uint8_t Offset, TType, TSubtype, RID;
+..\..\main_task.c(4325): warning:  #550-D: variable "RID"  was set but never used
+      uint8_t Offset, TType, TSubtype, RID;
+..\..\main_task.c(4326): warning:  #550-D: variable "PID"  was set but never used
+      uint16_t PID;
+..\..\main_task.c(4489): warning:  #61-D: integer operation result is out of range
+  		Magic_ID |= (0xA6 << 24) ;
+..\..\main_task.c(4489): warning:  #68-D: integer conversion resulted in a change of sign
+  		Magic_ID |= (0xA6 << 24) ;
+..\..\main_task.c(4460): warning:  #177-D: variable "DatBuf"  was declared but never referenced
+  		uint8_t DatBuf[50];
+..\..\main_task.c(4461): warning:  #177-D: variable "DatBufLen"  was declared but never referenced
+      uint8_t DatBufLen, Offset;
+..\..\main_task.c(4465): warning:  #177-D: variable "ChanParam"  was declared but never referenced
+  	  S_CONN_CHAN_PARAM ChanParam;
+..\..\main_task.c(4502): warning:  #550-D: variable "TType"  was set but never used
+  		uint8_t Offset, TType, TSubtype, WType;
+..\..\main_task.c(4502): warning:  #550-D: variable "TSubtype"  was set but never used
+  		uint8_t Offset, TType, TSubtype, WType;
+..\..\main_task.c(4502): warning:  #177-D: variable "WType"  was declared but never referenced
+  		uint8_t Offset, TType, TSubtype, WType;
+..\..\main_task.c(4590): warning:  #940-D: missing return statement at end of non-void function "InterConn_ProtDeal_Slaver_LightWeapon" 
+  }
+..\..\main_task.c(4548): warning:  #177-D: variable "i"  was declared but never referenced
+      uint8_t i, w = 0, b, DatBufLen;
+..\..\main_task.c(4642): warning:  #940-D: missing return statement at end of non-void function "InterConn_ProtDeal_Slaver_HeavyWeapon" 
+  }
+..\..\main_task.c(4597): warning:  #177-D: variable "i"  was declared but never referenced
+      uint8_t i, w = 0, b, DatBufLen;
+..\..\main_task.c(4706): warning:  #177-D: variable "DatBuf"  was declared but never referenced
+  		uint8_t DatBuf[50];
+..\..\main_task.c(4707): warning:  #177-D: variable "DatBufLen"  was declared but never referenced
+      uint8_t w = 0, i = 0, b = 0, DatBufLen , R_Num[3], T_Num[3] = {0};
+..\..\main_task.c(4707): warning:  #177-D: variable "R_Num"  was declared but never referenced
+      uint8_t w = 0, i = 0, b = 0, DatBufLen , R_Num[3], T_Num[3] = {0};
+..\..\main_task.c(4707): warning:  #177-D: variable "T_Num"  was declared but never referenced
+      uint8_t w = 0, i = 0, b = 0, DatBufLen , R_Num[3], T_Num[3] = {0};
+..\..\main_task.c(4709): warning:  #177-D: variable "Rnum"  was declared but never referenced
+  		uint32_t Rnum = 0, Tnum = 0, Magic_ID;
+..\..\main_task.c(4709): warning:  #177-D: variable "Tnum"  was declared but never referenced
+  		uint32_t Rnum = 0, Tnum = 0, Magic_ID;
+..\..\main_task.c(4710): warning:  #177-D: variable "ChanParam"  was declared but never referenced
+  	  S_CONN_CHAN_PARAM ChanParam;
+..\..\main_task.c(4843): warning:  #177-D: variable "DatBuf"  was declared but never referenced
+  		uint8_t DatBuf[50];
+..\..\main_task.c(4844): warning:  #177-D: variable "i"  was declared but never referenced
+      uint8_t w = 0, i = 0, b = 0, DatBufLen;
+..\..\main_task.c(4844): warning:  #177-D: variable "DatBufLen"  was declared but never referenced
+      uint8_t w = 0, i = 0, b = 0, DatBufLen;
+..\..\main_task.c(4847): warning:  #177-D: variable "ChanParam"  was declared but never referenced
+  	  S_CONN_CHAN_PARAM ChanParam;
+..\..\main_task.c(4961): warning:  #177-D: variable "b"  was declared but never referenced
+      uint8_t w = 0, b = 0, DatBufLen;
+..\..\main_task.c(4962): warning:  #177-D: variable "Ammu_RemainNum"  was declared but never referenced
+  		uint32_t Ammu_RemainNum = 0;
+..\..\main_task.c(5166): warning:  #61-D: integer operation result is out of range
+  		Magic_ID |= (0xAA << 24) ;
+..\..\main_task.c(5166): warning:  #68-D: integer conversion resulted in a change of sign
+  		Magic_ID |= (0xAA << 24) ;
+..\..\main_task.c(5096): warning:  #550-D: variable "TType"  was set but never used
+  	  uint8_t Offset, TType, TSubtype, RID, AType, ASubtype, Weaponsta;
+..\..\main_task.c(5096): warning:  #550-D: variable "TSubtype"  was set but never used
+  	  uint8_t Offset, TType, TSubtype, RID, AType, ASubtype, Weaponsta;
+..\..\main_task.c(5096): warning:  #550-D: variable "RID"  was set but never used
+  	  uint8_t Offset, TType, TSubtype, RID, AType, ASubtype, Weaponsta;
+..\..\main_task.c(5096): warning:  #550-D: variable "Weaponsta"  was set but never used
+  	  uint8_t Offset, TType, TSubtype, RID, AType, ASubtype, Weaponsta;
+..\..\main_task.c(5098): warning:  #177-D: variable "DatBuf"  was declared but never referenced
+  		uint8_t DatBuf[50];
+..\..\main_task.c(5099): warning:  #177-D: variable "DatBufLen"  was declared but never referenced
+      uint8_t w = 0, b = 0, DatBufLen;
+..\..\main_task.c(5101): warning:  #550-D: variable "PID"  was set but never used
+  		uint16_t PID;
+..\..\main_task.c(5102): warning:  #177-D: variable "Cnum"  was declared but never referenced
+  		uint32_t Cnum, Rnum, Magic_ID;
+..\..\main_task.c(5102): warning:  #177-D: variable "Rnum"  was declared but never referenced
+  		uint32_t Cnum, Rnum, Magic_ID;
+..\..\main_task.c(5104): warning:  #177-D: variable "ChanParam"  was declared but never referenced
+  	  S_CONN_CHAN_PARAM ChanParam;
+..\..\main_task.c(5767): warning:  #940-D: missing return statement at end of non-void function "InterConn_ProtDeal_Slaver_AmmuStausRet" 
+  }
+..\..\main_task.c(5585): warning:  #550-D: variable "TSubtype"  was set but never used
+      uint8_t Offset, TType, TSubtype, RID, AType, ASubtype, Weaponsta;
+..\..\main_task.c(5585): warning:  #550-D: variable "RID"  was set but never used
+      uint8_t Offset, TType, TSubtype, RID, AType, ASubtype, Weaponsta;
+..\..\main_task.c(5591): warning:  #550-D: variable "PID"  was set but never used
+  		uint16_t PID;
+..\..\main_task.c(5593): warning:  #177-D: variable "DBHJT_DJTime"  was declared but never referenced
+      static uint32_t Remain_Aum = 0, Total_Aum = 0, Timer_ExhaustAmmunition = 0, DBHJT_DJTime = 0;
+..\..\main_task.c(5597): warning:  #177-D: variable "pScomTaskMag"  was declared but never referenced
+      SCOMTASK_MAG *pScomTaskMag;
+..\..\main_task.c(5951): warning:  #940-D: missing return statement at end of non-void function "InterConn_ProtDeal_Slaver_WeaponShootingInquire" 
+  }
+..\..\main_task.c(5773): warning:  #177-D: variable "WeaponSta"  was declared but never referenced
+  		uint8_t WeaponSta;
+..\..\main_task.c(5958): warning:  #550-D: variable "TType"  was set but never used
+  		uint8_t TType, TSubtype, RID;
+..\..\main_task.c(5958): warning:  #550-D: variable "TSubtype"  was set but never used
+  		uint8_t TType, TSubtype, RID;
+..\..\main_task.c(5958): warning:  #550-D: variable "RID"  was set but never used
+  		uint8_t TType, TSubtype, RID;
+..\..\main_task.c(5959): warning:  #177-D: variable "DatBuf"  was declared but never referenced
+  		uint8_t DatBuf[64];
+..\..\main_task.c(5960): warning:  #177-D: variable "DatBufLen"  was declared but never referenced
+      uint8_t DatBufLen, Offset;
+..\..\main_task.c(5961): warning:  #550-D: variable "PID"  was set but never used
+  		uint16_t PID;
+..\..\main_task.c(5963): warning:  #177-D: variable "ChanParam"  was declared but never referenced
+  	  S_CONN_CHAN_PARAM ChanParam;
+..\..\main_task.c(6058): warning:  #550-D: variable "TType"  was set but never used
+  		uint8_t TType, TSubtype, RID, Rescue_Character;
+..\..\main_task.c(6058): warning:  #550-D: variable "TSubtype"  was set but never used
+  		uint8_t TType, TSubtype, RID, Rescue_Character;
+..\..\main_task.c(6059): warning:  #177-D: variable "DatBuf"  was declared but never referenced
+  		uint8_t DatBuf[64];
+..\..\main_task.c(6060): warning:  #177-D: variable "DatBufLen"  was declared but never referenced
+      uint8_t DatBufLen, Offset;
+..\..\main_task.c(6063): warning:  #177-D: variable "ChanParam"  was declared but never referenced
+  	  S_CONN_CHAN_PARAM ChanParam;
+..\..\main_task.c(6109): warning:  #177-D: variable "Total_AmmuNum"  was declared but never referenced
+      uint8_t w = 0, b = 0, DatBufLen, Remain_Ammu = 0, Total_AmmuNum[3] = {0};
+..\..\main_task.c(6113): warning:  #177-D: variable "pScomTaskMag"  was declared but never referenced
+      SCOMTASK_MAG *pScomTaskMag;
+..\..\main_task.c(6215): warning:  #177-D: variable "pScomTaskMag"  was declared but never referenced
+      SCOMTASK_MAG *pScomTaskMag;
+..\..\main_task.c(6312): warning:  #177-D: variable "pScomTaskMag"  was declared but never referenced
+      SCOMTASK_MAG *pScomTaskMag;
+..\..\main_task.c(6428): warning:  #177-D: variable "pScomTaskMag"  was declared but never referenced
+      SCOMTASK_MAG *pScomTaskMag;
+..\..\main_task.c(6429): warning:  #177-D: variable "Pos"  was declared but never referenced
+      STRUCT_LPOS Pos;
+..\..\main_task.c(6430): warning:  #177-D: variable "Tim1"  was declared but never referenced
+      STRUCT_TIME1 Tim1;
+..\..\main_task.c(6480): warning:  #177-D: variable "ChanParam"  was declared but never referenced
+  		S_CONN_CHAN_PARAM ChanParam;
+..\..\main_task.c(6481): warning:  #550-D: variable "RID"  was set but never used
+      uint8_t i, Offset, TType, TSubtype, RID, On_Flg = 0xFF, W_Type;
+..\..\main_task.c(6481): warning:  #550-D: variable "W_Type"  was set but never used
+      uint8_t i, Offset, TType, TSubtype, RID, On_Flg = 0xFF, W_Type;
+..\..\main_task.c(6483): warning:  #550-D: variable "PID"  was set but never used
+  		uint16_t PID;
+..\..\main_task.c(6713): warning:  #550-D: variable "Key"  was set but never used
+      uint8_t Key, ExplodeRadius = 0;
+..\..\main_task.c(6713): warning:  #550-D: variable "ExplodeRadius"  was set but never used
+      uint8_t Key, ExplodeRadius = 0;
+..\..\main_task.c(6785): warning:  #177-D: variable "i"  was declared but never referenced
+  		uint8_t i, Offset, TType, TSubtype, RID, Cdegree = 0, GetOnDistance = 0, S_Time[5] = {0};;
+..\..\main_task.c(6785): warning:  #550-D: variable "Cdegree"  was set but never used
+  		uint8_t i, Offset, TType, TSubtype, RID, Cdegree = 0, GetOnDistance = 0, S_Time[5] = {0};;
+..\..\main_task.c(6922): warning:  #940-D: missing return statement at end of non-void function "InterConn_ProtDeal_BZ" 
+  }
+..\..\main_task.c(6899): warning:  #177-D: variable "i"  was declared but never referenced
+  		uint8_t i, Offset, TType, TSubtype, RID;
+..\..\main_task.c(6901): warning:  #177-D: variable "DatBufLen"  was declared but never referenced
+  		uint8_t DatBufLen, DatBuf[50];
+..\..\main_task.c(6901): warning:  #177-D: variable "DatBuf"  was declared but never referenced
+  		uint8_t DatBufLen, DatBuf[50];
+..\..\main_task.c(6972): warning:  #940-D: missing return statement at end of non-void function "InterConn_ProtDeal_Personnel_GetOn_Off" 
+  }
+..\..\main_task.c(6926): warning:  #177-D: variable "i"  was declared but never referenced
+  		uint8_t i, Offset, TType, TSubtype, RID, InOut_Ctrl;
+..\..\main_task.c(6926): warning:  #550-D: variable "TType"  was set but never used
+  		uint8_t i, Offset, TType, TSubtype, RID, InOut_Ctrl;
+..\..\main_task.c(6926): warning:  #550-D: variable "TSubtype"  was set but never used
+  		uint8_t i, Offset, TType, TSubtype, RID, InOut_Ctrl;
+..\..\main_task.c(6926): warning:  #550-D: variable "RID"  was set but never used
+  		uint8_t i, Offset, TType, TSubtype, RID, InOut_Ctrl;
+..\..\main_task.c(6928): warning:  #177-D: variable "DatBufLen"  was declared but never referenced
+  		uint8_t DatBufLen, DatBuf[50];
+..\..\main_task.c(6928): warning:  #177-D: variable "DatBuf"  was declared but never referenced
+  		uint8_t DatBufLen, DatBuf[50];
+..\..\main_task.c(6929): warning:  #550-D: variable "PID"  was set but never used
+  		uint16_t PID;
+..\..\main_task.c(7040): warning:  #940-D: missing return statement at end of non-void function "InterConn_ProtDeal_Bomb" 
+  }
+..\..\main_task.c(6979): warning:  #550-D: variable "Key"  was set but never used
+      uint8_t Key, ExplodeRadius = 0, A_Pos[9] = {0}, S_Time[5] = {0};
+..\..\main_task.c(6979): warning:  #177-D: variable "ExplodeRadius"  was declared but never referenced
+      uint8_t Key, ExplodeRadius = 0, A_Pos[9] = {0}, S_Time[5] = {0};
+..\..\main_task.c(6979): warning:  #177-D: variable "S_Time"  was declared but never referenced
+      uint8_t Key, ExplodeRadius = 0, A_Pos[9] = {0}, S_Time[5] = {0};
+..\..\main_task.c(7126): warning:  #177-D: variable "pSlaverMag"  was declared but never referenced
+  		SINGLE_SLAVER_MAG *pSlaverMag;
+..\..\main_task.c(7127): warning:  #177-D: variable "i"  was declared but never referenced
+  		uint8_t i;
+..\..\main_task.c(7169): warning:  #177-D: variable "dat55"  was declared but never referenced
+  		uint8_t dat55[4];
+..\..\main_task.c(7170): warning:  #177-D: variable "TmpLen"  was declared but never referenced
+      uint8_t TmpLen;
+..\..\main_task.c(7172): warning:  #177-D: variable "pDstAddr"  was declared but never referenced
+      uint8_t *pDstAddr;
+..\..\main_task.c(7456): warning:  #177-D: variable "pScomTaskMag"  was declared but never referenced
+      SCOMTASK_MAG *pScomTaskMag;
+..\..\main_task.c(7497): warning:  #177-D: variable "pScomTaskMag"  was declared but never referenced
+      SCOMTASK_MAG *pScomTaskMag;
+..\..\main_task.c(7541): warning:  #177-D: variable "IR_Cmd"  was declared but never referenced
+      uint16_t IR_Cmd;
+..\..\main_task.c(7761): warning:  #177-D: variable "pScomTaskMag"  was declared but never referenced
+  		SCOMTASK_MAG *pScomTaskMag;
+..\..\main_task.c(7764): warning:  #177-D: variable "MagicID"  was declared but never referenced
+  		uint32_t MagicID;
+..\..\main_task.c(7822): warning:  #550-D: variable "DevIdx"  was set but never used
+      uint8_t DevIdx, DevCtrl, Offset,Cmd;
+..\..\main_task.c(7822): warning:  #550-D: variable "DevCtrl"  was set but never used
+      uint8_t DevIdx, DevCtrl, Offset,Cmd;
+..\..\main_task.c(7822): warning:  #177-D: variable "Cmd"  was declared but never referenced
+      uint8_t DevIdx, DevCtrl, Offset,Cmd;
+..\..\main_task.c(7823): warning:  #177-D: variable "IsCutted"  was declared but never referenced
+      uint32_t IsCutted = FALSE;
+..\..\main_task.c(7876): warning:  #550-D: variable "DevIdx"  was set but never used
+      uint8_t DevIdx, DevCtrl, Offset;
+..\..\main_task.c(7876): warning:  #177-D: variable "Offset"  was declared but never referenced
+      uint8_t DevIdx, DevCtrl, Offset;
+..\..\main_task.c(7892): warning:  #550-D: variable "DevIdx"  was set but never used
+      uint8_t DevIdx, DevCtrl, Offset;
+..\..\main_task.c(7892): warning:  #177-D: variable "Offset"  was declared but never referenced
+      uint8_t DevIdx, DevCtrl, Offset;
+..\..\main_task.c(7908): warning:  #550-D: variable "DevIdx"  was set but never used
+      uint8_t DevIdx, DevCtrl, Offset;
+..\..\main_task.c(7908): warning:  #177-D: variable "Offset"  was declared but never referenced
+      uint8_t DevIdx, DevCtrl, Offset;
+..\..\main_task.c(7924): warning:  #550-D: variable "DevIdx"  was set but never used
+      uint8_t DevIdx, DevCtrl, Offset;
+..\..\main_task.c(7924): warning:  #177-D: variable "Offset"  was declared but never referenced
+      uint8_t DevIdx, DevCtrl, Offset;
+..\..\main_task.c(7955): warning:  #550-D: variable "DevIdx"  was set but never used
+      uint8_t DevIdx, DevCtrl, Offset;
+..\..\main_task.c(7955): warning:  #177-D: variable "Offset"  was declared but never referenced
+      uint8_t DevIdx, DevCtrl, Offset;
+..\..\main_task.c(7957): warning:  #177-D: variable "Buf"  was declared but never referenced
+      uint8_t Buf[30];
+..\..\main_task.c(7959): warning:  #177-D: variable "pSingleMag"  was declared but never referenced
+      SINGLE_SLAVER_MAG *pSingleMag;
+..\..\main_task.c(7993): warning:  #177-D: variable "i"  was declared but never referenced
+  		uint8_t DatBufLen, i, last_Weapon_Type = 0;
+..\..\main_task.c(7993): warning:  #177-D: variable "last_Weapon_Type"  was declared but never referenced
+  		uint8_t DatBufLen, i, last_Weapon_Type = 0;
+..\..\main_task.c(8032): warning:  #177-D: variable "i"  was declared but never referenced
+  		uint8_t DatBufLen, i;
+..\..\main_task.c(8077): warning:  #177-D: variable "i"  was declared but never referenced
+  		uint8_t DatBufLen, i;
+..\..\main_task.c(8316): warning:  #177-D: variable "pMag"  was declared but never referenced
+      RESCOMTASK_MAG *pMag = (RESCOMTASK_MAG *)pHandle;
+..\..\main_task.c(8317): warning:  #550-D: variable "DevCtrl"  was set but never used
+      uint8_t DevIdx, DevCtrl, Offset;
+..\..\main_task.c(8317): warning:  #177-D: variable "Offset"  was declared but never referenced
+      uint8_t DevIdx, DevCtrl, Offset;
+..\..\main_task.c(8414): warning:  #177-D: variable "Tim"  was declared but never referenced
+      uint32_t Tim = Tim100Ms;
+..\..\main_task.c(8920): warning:  #940-D: missing return statement at end of non-void function "SynchronizeState" 
+  }
+..\..\main_task.c(9097): warning:  #188-D: enumerated type mixed with another type
+  				UserParam_SetBRChar(BK->Belong);
+..\..\main_task.c(9208): warning:  #940-D: missing return statement at end of non-void function "DrillStateReadFromOutFlash" 
+  }
+..\..\main_task.c(9194): warning:  #177-D: variable "Xor"  was declared but never referenced
+      uint8_t Xor = 0;
+..\..\main_task.c(9252): warning:  #940-D: missing return statement at end of non-void function "DrillStateRecovery" 
+  }
+..\..\main_task.c(9327): warning:  #188-D: enumerated type mixed with another type
+          UserParam_SetBRChar(BK->Belong);
+..\..\main_task.c(9467): warning:  #188-D: enumerated type mixed with another type
+  		UserParam_SetBRChar(ManoParam.m_byBR_Attribute);
+..\..\main_task.c(9405): warning:  #177-D: variable "pMag"  was declared but never referenced
+  		SINGLE_SLAVER_MAG *pMag = NULL;
+..\..\main_task.c(9407): warning:  #177-D: variable "k"  was declared but never referenced
+      uint8_t StartBuf[70] = {0}, i, j, k;
+..\..\main_task.c(9410): warning:  #550-D: variable "BackupAreaEpNum"  was set but never used
+      uint32_t BackupAreaEpNum = 0, RecvEpNum = 0;
+..\..\main_task.c(9410): warning:  #550-D: variable "RecvEpNum"  was set but never used
+      uint32_t BackupAreaEpNum = 0, RecvEpNum = 0;
+..\..\main_task.c(9592): warning:  #177-D: variable "pRetMac"  was declared but never referenced
+  		uint8_t *pRetMac;
+..\..\main_task.c(10375): warning:  #177-D: variable "HurtInfo"  was declared but never referenced
+  		RCVHURTINFO_T HurtInfo;
+..\..\main_task.c(10904): warning:  #188-D: enumerated type mixed with another type
+  				CtrlHelmetFume(1, 10);
+..\..\main_task.c(10933): warning:  #177-D: variable "pFrame"  was declared but never referenced
+  	FRAME_BUF *pFrame = NULL;
+..\..\main_task.c(10936): warning:  #177-D: variable "Num_NoRsp"  was declared but never referenced
+  	uint16_t Num_NoRsp = 0;
+..\..\main_task.c(12786): warning:  #550-D: variable "C_Lock1"  was set but never used
+      uint8_t tmnpara = 0, C_Lock1 = 0;
+..\..\main_task.c(13921): warning:  #550-D: variable "GameMode"  was set but never used
+  	uint8_t Id, FA_Type, FA_Subtype, FT_Type, FT_Subtype, FRid, AcChar, GameMode;
+..\..\main_task.c(13923): warning:  #177-D: variable "OutPos"  was declared but never referenced
+  	uint8_t OutPos[9] = {0};
+..\..\main_task.c(13924): warning:  #177-D: variable "Thickness2"  was declared but never referenced
+  	uint8_t Range, Velocity3 = 0, Thickness1 = 0, Thickness2 = 0,Belong = 0, TsCharacter2 = 0, Key = 0;		//武器有效距离
+..\..\main_task.c(14240): warning:  #188-D: enumerated type mixed with another type
+      ENUM_CI_INDIVIDUAL HurtDegree = GetInjuryDegree(g_sUserParam.m_byBlood);
+..\..\main_task.c(14502): warning:  #550-D: variable "LowCnt"  was set but never used
+      static uint8_t LowFlag, VeryLowFlag, LowCnt;
+..\..\main_task.c(14630): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          if((pMag->m_fGx > -0.6 && pMag->m_fGx < 0.6) && pMag->m_fGy < -0.5)
+..\..\main_task.c(14659): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      else if(pMag->m_fRoll < -150.0 || pMag->m_fRoll > 150.0)
+..\..\main_task.c(14677): warning:  #940-D: missing return statement at end of non-void function "PoseAnalyse" 
+  }
+..\..\main_task.c: 200 warnings, 0 errors
+linking...
+Program Size: Code=126324 RO-data=11376 RW-data=432 ZI-data=131048  
+After Build - User command #1: fromelf --bin ".\Objects\App_DB_BJ_F460_V6_1_1_20231115_2.axf" --output "..\..\..\output\App_DB_BJ_F460_V6_1_1_20231115_2.bin"
+".\Objects\App_DB_BJ_F460_V6_1_1_20231115_2.axf" - 0 Error(s), 203 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: HDSC
+                https://raw.githubusercontent.com/hdscmcu/pack/master/HDSC.HC32F460.1.0.11.pack
+                HDSC.HC32F460.1.0.11
+                HC32F460 ARM Cortex-M4 Device Family Pack
+
+<h2>Collection of Component include folders:</h2>
+  D:/SoftWare/Keil_v5/packs/HDSC/HC32F460/1.0.11/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:07
+</pre>
+</body>
+</html>

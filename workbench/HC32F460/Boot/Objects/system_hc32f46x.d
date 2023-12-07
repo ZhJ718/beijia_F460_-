@@ -1,0 +1,14 @@
+.\objects\system_hc32f46x.o: ..\..\..\board\HC32F460\config\system_hc32f46x.c
+.\objects\system_hc32f46x.o: ..\..\..\board\HC32F460\config\hc32_common.h
+.\objects\system_hc32f46x.o: D:\SoftWare\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\system_hc32f46x.o: D:\SoftWare\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\system_hc32f46x.o: D:\SoftWare\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\system_hc32f46x.o: D:\SoftWare\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\system_hc32f46x.o: D:\SoftWare\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\system_hc32f46x.o: ..\..\..\board\HC32F460\config\hc32f46x.h
+.\objects\system_hc32f46x.o: ..\..\..\board\HC32F460\core\core_cm4.h
+.\objects\system_hc32f46x.o: ..\..\..\board\HC32F460\core\cmsis_version.h
+.\objects\system_hc32f46x.o: ..\..\..\board\HC32F460\core\cmsis_compiler.h
+.\objects\system_hc32f46x.o: ..\..\..\board\HC32F460\core\cmsis_armcc.h
+.\objects\system_hc32f46x.o: ..\..\..\board\HC32F460\core\mpu_armv7.h
+.\objects\system_hc32f46x.o: ..\..\..\board\HC32F460\config\system_hc32f46x.h
