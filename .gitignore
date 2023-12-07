@@ -1,0 +1,8 @@
+#忽略ouput目录下的所有文件
+output/*
+
+/SI/
+
+**/Listings
+**/Objects
+
